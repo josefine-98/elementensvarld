@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Josse's Cloud Catcher Game - Fun Game for Kids!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="header">
+            <div class="logo-container">
+                <div class="elementens-logo">
+                    <span class="logo-text">Elementens Värld</span>
+                </div>
+            </div>
+            <div class="score-board">
+                <span class="score-label">Poäng:</span>
+                <span class="score" id="score">0</span>
+            </div>
+            <button id="restartBtn" class="restart-btn" style="display: none;">Starta om</button>
+        </div>
+        
+        <div class="game-area" id="gameArea">
+            <div class="instructions">
+                <p>Fånga så många element du kan!</p>
+                <div class="character-preview">
+                    <img src="vinda-transparent.png" alt="Vinda" class="preview-character">
+                    <img src="vattna.png" alt="Vattna" class="preview-character">
+                    <img src="elda.png" alt="Elda" class="preview-character">
+                    <img src="jorda.png" alt="Jorda" class="preview-character">
+                </div>
+                <button id="startBtn" class="start-btn">Starta spel</button>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
